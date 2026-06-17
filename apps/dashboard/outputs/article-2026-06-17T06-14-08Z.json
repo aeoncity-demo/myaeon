@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "article"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_new",
+        "storylink_article"
+      ]
+    },
+    "heading_new": {
+      "type": "Heading",
+      "props": {
+        "text": "New Article Written",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "storylink_article": {
+      "type": "StoryLink",
+      "props": {
+        "title": "The Consciousness Crisis: Why Neuroscience Can't Agree on Where the Mind Lives",
+        "href": "https://github.com/aeoncity-demo/myaeon/blob/main/articles/2026-06-17.md"
+      },
+      "children": []
+    }
+  }
+}
