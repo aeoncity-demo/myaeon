@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_degraded",
+        "alert_memory"
+      ]
+    },
+    "alert_degraded": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 DEGRADED: heartbeat",
+        "message": "no entry in cron-state.json (never recorded; possible first run or state file not yet written)",
+        "type": "error"
+      }
+    },
+    "alert_memory": {
+      "type": "Alert",
+      "props": {
+        "title": "🔵 MEMORY",
+        "message": "Notification channels not configured (Telegram/Discord/Slack); first digest not yet run",
+        "type": "info"
+      }
+    }
+  }
+}
