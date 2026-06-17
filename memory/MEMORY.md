@@ -7,6 +7,7 @@
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
+| 2026-06-17 | The Consciousness Crisis: Why Neuroscience Can't Agree on Where the Mind Lives | Consciousness research, neuroscience, panpsychism, IIT, MIT TFU tool |
 
 ## Recent Digests
 | Date | Type | Key Topics |
