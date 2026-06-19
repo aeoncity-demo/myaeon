@@ -1,0 +1,42 @@
+{
+  "root": "card_heartbeat",
+  "state": {},
+  "elements": {
+    "card_heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_failed",
+        "alert_warning"
+      ]
+    },
+    "alert_failed": {
+      "type": "Alert",
+      "props": {
+        "title": "FAILED",
+        "message": "Failed at 2026-06-18 21:15 UTC — 1 consecutive failure",
+        "type": "error"
+      }
+    },
+    "alert_warning": {
+      "type": "Alert",
+      "props": {
+        "title": "Self-check",
+        "message": "Last heartbeat success was 2026-06-17 22:56 UTC (~39h ago; threshold is 36h)",
+        "type": "warning"
+      }
+    }
+  }
+}
