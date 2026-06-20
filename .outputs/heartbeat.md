@@ -1,3 +1,9 @@
-HEARTBEAT_OK · STATUS_PAGE=WATCH
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-**Summary:** All P0 checks clear — heartbeat recovered (last success 12:38 UTC today, consecutive_failures: 0). P2 items (unconfigured notification channels, no digest run yet) still present in MEMORY.md but deduped from today's earlier log. No notification sent. Status page updated to 🟡 WATCH at `docs/status.md`.
+All P0–P3 checks passed with no flags. Status page updated to 🟢 OK, log written to `memory/logs/2026-06-20.md`.
+
+## Summary
+
+- **docs/status.md** — regenerated: 🟢 OK, heartbeat 80% success rate, 0 open issues
+- **memory/logs/2026-06-20.md** — created with today's run findings
+- No notification sent (nothing needs attention; P2 items deduped from yesterday's log)
